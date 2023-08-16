@@ -1,0 +1,31 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#myCarousel .carousel-inner .carousel-item {
+  height: 80vh;
+}
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1586128951891-bb0ef219cf67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+}
+.bg-img3 {
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+}
+#myCarousel .carousel-inner .carousel-item .container .carousel-caption {
+  padding: 0;
+  transform: translateY(-80%);
+}
